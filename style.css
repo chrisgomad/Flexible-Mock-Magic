@@ -8,6 +8,9 @@
     background-color: #59D9A1;
     padding-left: 30px;
     padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
   
 .logo {
@@ -78,3 +81,27 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
