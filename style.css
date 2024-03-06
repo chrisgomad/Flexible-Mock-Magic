@@ -47,6 +47,12 @@
     background-color: #242457;
     color: white;
     padding: 3rem;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
 }
 
 footer img {
@@ -57,6 +63,7 @@ footer img {
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
+    display: flex;
 }
 
 .image-container{
@@ -67,10 +74,17 @@ footer img {
     color: #fff;
     border: solid black 1px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 footer {
     width: 100%;
     padding: 1rem;
